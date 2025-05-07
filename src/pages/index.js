@@ -1,28 +1,29 @@
-import styles from "@/styles/Home.module.css";
-
-import React from "react";
-import Test from '@/components/Test';
+import Box from '@mui/material/Box';
+import Header from '@/components/Header';
+import HeroSection from '@/components/HeroSection';
+import AboutSection from '@/components/AboutSection';
+import ProductList from '@/components/ProductList';
+import ContactSection from '@/components/ContactSection';
+import Footer from '@/components/Footer';
 
 export default function Home() {
-  return (
-    <>
-      <div>
-        <h1 className={styles.title}>Welcome to the Music App</h1>
-        <p className={styles.description}>
-          This is a simple music app built with Next.js and Supabase.
-        </p>
-        <div className={styles.grid}>
-          <a href="/login" className={styles.card}>
-            <h2>Login &rarr;</h2>
-            <p>Login to your account.</p>
-          </a>
-          <a href="/register" className={styles.card}>
-            <h2>Register &rarr;</h2>
-            <p>Create a new account.</p>
-          </a>
-        </div>
-      </div>
-      <Test/>
-    </>
-  );
+    return (
+        <Box
+            sx={{
+                minHeight: '100vh',
+                bgcolor: '#fffbee',
+                background: 'linear-gradient(135deg, #fffbee 60%, #ffe082 100%)',
+            }}
+        >
+            <Header />
+            <HeroSection />
+            <AboutSection />
+            <div id="oferta" style={{ scrollMarginTop: '64px' }}>
+                <ProductList />
+            </div>
+            <ContactSection />
+
+            <Footer />
+        </Box>
+    );
 }
