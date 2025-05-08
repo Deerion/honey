@@ -8,7 +8,7 @@ export default function AboutSection() {
                     O naszej pasiece
                 </Typography>
                 <Typography variant="body1">
-                    Nasza pasieka to rodzinna inicjatywa prowadzona od lat w malowniczej miejscowości Guzów.Z pasją i zaangażowaniem zajmujemy się pszczołami, a miód kręcimy zawsze w gronie najbliższych. Dla nas pszczelarstwo to nie tylko praca, ale przede wszystkim tradycja i sposób na wspólne spędzanie czasu. Dbamy o dobrostan naszych pszczół, korzystamy z naturalnych metod i czerpiemy radość z każdego sezonu. Miód z naszej pasieki to efekt troski, doświadczenia i rodzinnej współpracy – smakuje wyjątkowo, bo powstaje z serca i z miłości do natury oraz tradycji.
+                    Nasza pasieka to rodzinna inicjatywa prowadzona od lat w malowniczej miejscowości Guzów. Z pasją i zaangażowaniem zajmujemy się pszczołami, a miód kręcimy zawsze w gronie najbliższych. Dla nas pszczelarstwo to nie tylko praca, ale przede wszystkim tradycja i sposób na wspólne spędzanie czasu. Dbamy o dobrostan naszych pszczół, korzystamy z naturalnych metod i czerpiemy radość z każdego sezonu. Miód z naszej pasieki to efekt troski, doświadczenia i rodzinnej współpracy – smakuje wyjątkowo, bo powstaje z serca i z miłości do natury oraz tradycji.
                 </Typography>
             </Container>
         </Box>
