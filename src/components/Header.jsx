@@ -51,7 +51,7 @@ export default function Header() {
                             textShadow: '0 1px 2px #fffde7',
                         }}
                     >
-                        Guzów - Honey
+                        Psieka - Guzów
                     </Typography>
                 </Box>
                 {/* Przyciski na dużych ekranach */}

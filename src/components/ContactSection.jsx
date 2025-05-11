@@ -49,7 +49,7 @@ export default function ContactSection() {
                             <Box display="flex" alignItems="center" justifyContent="center">
                                 <EmailIcon sx={{ color: '#ffb300', mr: 1, fontSize: 28 }} /> {/* Zwiększenie ikony */}
                                 <Typography variant="h6" fontWeight={500}>
-                                    UZUPEŁNIĆ I STWORZYĆ MAILA
+                                    pasiekaguzow@gmail.com
                                 </Typography>
                             </Box>
                         </Grid>
