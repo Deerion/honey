@@ -5,7 +5,7 @@ export default function SetTitle({ text, image }) {
     const defaultTitle = 'Pasieka - Guzów';
     const pageTitle = text ? `${text} - ${defaultTitle}` : defaultTitle;
     const pageDescription = 'Naturalny miód prosto z pasieki w Guzowie.';
-    const imageUrl = image || 'https://twoja-domena.pl/images/favicon.svg'; // Uwaga: musi być PEŁNY adres URL!
+    const imageUrl = image || 'https://www.pasiekaguzow.pl/favicon.svg'; // Uwaga: musi być PEŁNY adres URL!
 
     return (
         <Head>
