@@ -5,25 +5,29 @@ import AboutSection from '@/components/AboutSection';
 import ProductList from '@/components/ProductList';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
+import SetTitle from '@/components/SetTitle';
+
 
 export default function Home() {
     return (
-        <Box
-            sx={{
-                minHeight: '100vh',
-                bgcolor: '#fffbee',
-                background: 'linear-gradient(135deg, #fffbee 60%, #ffe082 100%)',
-            }}
-        >
-            <Header />
-            <HeroSection />
-            <AboutSection />
-            <div id="oferta" style={{ scrollMarginTop: '64px' }}>
-                <ProductList />
-            </div>
-            <ContactSection />
-
-            <Footer />
-        </Box>
+        <>
+            <Box
+                sx={{
+                    minHeight: '100vh',
+                    bgcolor: '#fffbee',
+                    background: 'linear-gradient(135deg, #fffbee 60%, #ffe082 100%)',
+                }}
+            >
+                <SetTitle image="/images/bee-svgrepo-com.svg" />
+                <Header />
+                <HeroSection />
+                <AboutSection />
+                <div id="oferta" style={{ scrollMarginTop: '64px' }}>
+                    <ProductList />
+                </div>
+                <ContactSection />
+                <Footer />
+            </Box>
+        </>
     );
 }
